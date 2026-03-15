@@ -9,17 +9,17 @@ description: >-
   Deep-dives on AI, Security, Identity & Access Management, and software
   engineering by Satishkumar Venkatasamy.
 
-url: "https://YOUR_GITHUB_USERNAME.github.io"
-baseurl: "/blog"
+url: "https://satishkumarvenkatasamy.github.io"
+baseurl: "/blogs"
 
 github:
-  username: YOUR_GITHUB_USERNAME
+  username: satishkumarvenkatasamy
 
 social:
   name: Satishkumar Venkatasamy
   email: ""
   links:
-    - https://github.com/YOUR_GITHUB_USERNAME
+    - https://github.com/satishkumarvenkatasamy
     - https://www.linkedin.com/in/YOUR_LINKEDIN
 
 # avatar: /assets/img/avatar.jpg   # uncomment and add your photo

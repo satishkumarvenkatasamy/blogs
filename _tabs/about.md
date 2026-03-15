@@ -16,4 +16,4 @@ I write about the technology behind modern AI systems, security architecture, an
 - Security — Application security, threat modeling, zero trust
 - IAM — Identity federation, OAuth, SAML, access control
 
-Feel free to connect on [GitHub](https://github.com/YOUR_GITHUB_USERNAME) or [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN).
+Feel free to connect on [GitHub](https://github.com/satishkumarvenkatasamy) or [LinkedIn](https://www.linkedin.com/in/sativenk/).
