@@ -1,0 +1,82 @@
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Asia/Kolkata
+
+title: "Satishkumar's Tech Blog"
+tagline: "AI · Security · IAM · Engineering"
+description: >-
+  Deep-dives on AI, Security, Identity & Access Management, and software
+  engineering by Satishkumar Venkatasamy.
+
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: "/blog"
+
+github:
+  username: YOUR_GITHUB_USERNAME
+
+social:
+  name: Satishkumar Venkatasamy
+  email: ""
+  links:
+    - https://github.com/YOUR_GITHUB_USERNAME
+    - https://www.linkedin.com/in/YOUR_LINKEDIN
+
+# avatar: /assets/img/avatar.jpg   # uncomment and add your photo
+
+toc: true
+paginate: 10
+
+theme_mode: # leave blank for auto (follows OS dark/light)
+
+img_cdn: ""
+
+comments:
+  active: ""   # options: disqus | utterances | giscus
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      math: false
+      mermaid: false
+  - scope:
+      path: "_posts/ai"
+    values:
+      categories: [AI]
+      img_path: /assets/img/posts/ai
+  - scope:
+      path: "_posts/security"
+    values:
+      categories: [Security]
+      img_path: /assets/img/posts/security
+  - scope:
+      path: "_posts/iam"
+    values:
+      categories: [IAM]
+      img_path: /assets/img/posts/iam
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - "*.sh"
