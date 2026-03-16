@@ -53,12 +53,10 @@ defaults:
       path: "_posts/ai"
     values:
       categories: [AI]
-      img_path: /assets/img/posts/ai
   - scope:
       path: "_posts/security"
     values:
       categories: [Security]
-      img_path: /assets/img/posts/security
   - scope:
       path: "_posts/iam"
     values:
@@ -67,7 +65,6 @@ defaults:
       path: "_posts/projects"
     values:
       categories: [Projects]
-      img_path: /assets/img/posts/iam
 
 sass:
   style: compressed

@@ -4,7 +4,6 @@ description: "How one week of AI announcements erased billions from global marke
 author: "Satishkumar Venkatasamy"
 date: "2026-03-10"
 tags: [AgenticAI, AI, MachineLearning, LLM, Transformers, Claude, MCP, FunctionCalling, Career, Tech]
-img_path: /assets/img/posts/ai/
 ---
 
 # From Chatbots to Claude Code: Everything You Need to Know About Agentic AI
@@ -41,7 +40,7 @@ Let's go back 70 years.
 
 ## 70 Years in 5 Minutes: The AI Evolution
 
-![The AI Evolution: From Rule-Based Systems to Agentic AI](AI_Timeline.jpg)
+![The AI Evolution: From Rule-Based Systems to Agentic AI](/assets/img/posts/ai/AI_Timeline.jpg)
 
 *Fig 1: Seven decades of AI evolution, from hand-coded rules in the 1950s to autonomous reasoning agents today.*
 
@@ -55,7 +54,7 @@ Here's the arc:
 
 **Deep Learning (2010s):** Stack many layers of "neurons" on top of each other. Each layer learns increasingly abstract features. The first layer of a vision network might detect edges. The next detects shapes. The next detects objects. With enough layers, enough data, and enough computing power — deep learning broke through in image recognition, speech, and eventually language.
 
-![Neural Network Architecture: How a single neuron works](SimpleNeuron.png)
+![Neural Network Architecture: How a single neuron works](/assets/img/posts/ai/SimpleNeuron.png)
 
 *Fig 2: A single artificial neuron: inputs are weighted, summed, passed through an activation function, and produce an output. Stack billions of these across dozens of layers — that's Deep Learning.*
 
@@ -75,7 +74,7 @@ Before this paper, language models processed text sequentially — word by word,
 
 The **Transformer architecture** changed this with a radical idea: what if every word could look at every other word *simultaneously*?
 
-![Self-Attention: Every word attending to every other word in context](s02p02_slide043_shape5_2665a7a1.png)
+![Self-Attention: Every word attending to every other word in context](/assets/img/posts/ai/s02p02_slide043_shape5_2665a7a1.png)
 
 *Fig 3: The attention mechanism. For a given sentence, every word simultaneously calculates how relevant every other word is to understanding its meaning. The grid shows attention weights — "apple" attends heavily to "orange" because it helps to identity apple as a fruit rather than iPhone in the first sentence.* Image Source: https://www.youtube.com/@SerranoAcademy [Luis Serrano's Serrano Academy]
 
@@ -89,7 +88,7 @@ But they have a deep, structural problem.
 
 ## The Inconvenient Truth: What LLMs Cannot Do
 
-![LLM Limitations: The fundamental gaps in how LLMs generate answers](PredictNextWord.png)
+![LLM Limitations: The fundamental gaps in how LLMs generate answers](/assets/img/posts/ai/PredictNextWord.png)
 
 *Fig 4: LLMs generate probabilistic answers from training data. In this image, it predicts "benefits" as next word for the sentence "IEE VIS conference highlights the". They're impressive — but they have hard architectural limits that no amount of prompt engineering can fix.* Image Source: https://poloclub.github.io/transformer-explainer/
 
@@ -115,7 +114,7 @@ The industry had a choice: accept these limitations, or engineer around them.
 
 The solution to above problem is: 1. Add reasoning capability to LLM. 2. Build a *system around* the LLM, which is Agentic AI.
 
-![AI Agent Architecture: LLM at the core, surrounded by tools, memory, and environment](AI-Agent-Simple.png)
+![AI Agent Architecture: LLM at the core, surrounded by tools, memory, and environment](/assets/img/posts/ai/AI-Agent-Simple.png)
 
 *Fig 5: An Agentic AI system. The LLM is the "brain" — it reasons and decides. But it's surrounded by tools it can call, memory systems it can query, and an external environment it can act upon. This is what separates a Claude Code from a chatbot.*
 
@@ -157,7 +156,7 @@ A raw LLM knows about everything, but not specifically about *your* domain. Cont
 - **Memory**: Past conversations, retrieved by semantic similarity.
 - **Available tools**: A list of what the agent can call.
 
-![Context Engineering: The six components that transform a generalist LLM into a specialist](ContextEngineering.png)
+![Context Engineering: The six components that transform a generalist LLM into a specialist](/assets/img/posts/ai/ContextEngineering.png)
 
 *Fig 6: The six pillars of Context Engineering: prompting techniques, long-term memory, agents, query augmentation (RAG), control flow, and tools. Together they take a general-purpose LLM and create a specialist that knows your domain.*
 
@@ -169,7 +168,7 @@ This is why Claude Cowork is so powerful. It assembles extraordinary context: yo
 
 Human experts are valuable because they remember. They remember what you tried last time, what worked, what your preferences are, what your domain requires. Agentic AI replicates this with four types of memory:
 
-![Memory Architecture: Episodic, Semantic, Grounding Context, and Working Memory](Agent-Memory.png)
+![Memory Architecture: Episodic, Semantic, Grounding Context, and Working Memory](/assets/img/posts/ai/Agent-Memory.png)
 
 *Fig 7: The four-tier memory stack. Working memory is the active conversation. Episodic memory stores past interactions, retrieved by vector similarity. Semantic memory holds external knowledge bases. Grounding context provides current session documents. Together they give an agent genuine continuity.*
 
@@ -197,7 +196,7 @@ This is the core of the **ReAct loop** (Reasoning + Acting) that powers every pr
 
 Claude Code runs this loop dozens of times per task. Each iteration, it reads files, runs code, checks outputs, adjusts its approach — behaving like a developer thinking through a problem at a terminal.
 
-![AI Agents: Memory + Tools](AIAgents-Internals.png)
+![AI Agents: Memory + Tools](/assets/img/posts/ai/AIAgents-Internals.png)
 
 *Fig 8: The AI Agent using short term memory, long term memory, tools, and LLM Reasoning to solve simple and complex problems.*
 
