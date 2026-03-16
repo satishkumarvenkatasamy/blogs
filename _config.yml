@@ -63,6 +63,10 @@ defaults:
       path: "_posts/iam"
     values:
       categories: [IAM]
+  - scope:
+      path: "_posts/projects"
+    values:
+      categories: [Projects]
       img_path: /assets/img/posts/iam
 
 sass:
