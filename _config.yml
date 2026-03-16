@@ -27,6 +27,12 @@ social:
 toc: true
 paginate: 10
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
 theme_mode: # leave blank for auto (follows OS dark/light)
 
 img_cdn: ""
