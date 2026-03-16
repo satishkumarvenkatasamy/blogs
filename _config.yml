@@ -28,7 +28,6 @@ toc: true
 paginate: 10
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate

@@ -4,6 +4,7 @@ description: "How one week of AI announcements erased billions from global marke
 author: "Satishkumar Venkatasamy"
 date: "2026-03-10"
 tags: [AgenticAI, AI, MachineLearning, LLM, Transformers, Claude, MCP, FunctionCalling, Career, Tech]
+img_path: /assets/img/posts/ai/
 ---
 
 # From Chatbots to Claude Code: Everything You Need to Know About Agentic AI
